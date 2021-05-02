@@ -1,0 +1,103 @@
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0 35px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Заголовок */
+
+.title {
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* Карточка */
+
+.card {
+  width: 430px;
+  position: relative;
+
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.card:nth-child(2) {
+  margin-top: 75px;
+}
+
+.card:nth-child(3) {
+  margin-top: 150px;
+}
+
+.card__image {
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  margin-bottom: 40px;
+}
+
+.card__title {
+  font-size: 36px;
+  color: #272D4E;
+  margin-bottom: 5px;
+  margin-top: 0;
+  line-height: 70px;
+}
+
+.card__text {
+  font-size: 18px;
+  color: #94A2B3;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.card__link {
+  font-size: 22px;
+  color: #299EF3;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card__image_1 {
+  position: absolute;
+  left: -80px;
+  top: 20px;
+}
+
+.card__image_2 {
+  position: absolute;
+  left: -150px;
+  top: 35px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -35px;
+  margin-right: -35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

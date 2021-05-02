@@ -1,0 +1,184 @@
+/**
+* Общие стили
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+html {
+  min-height: 100%;
+  border: 2px solid rgb(51, 51, 51);
+}
+
+body {
+  font-family: 'SF Pro Display';
+}
+
+.wrapper {
+  padding: 25px 35px;
+}
+
+/**
+* Утилиту
+*/
+
+.text-center {
+  text-align: center;
+}
+
+/**
+* Блоки
+*/
+
+.title {
+  color: #253274;
+  font-size: 32px;
+
+  margin: 0;
+  margin-bottom: 35px;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  text-align: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login-btn {
+  display: inline-block;
+  border: none;
+  background: #fff;
+
+  padding: 20px 35px;
+
+  box-shadow: 0 0 20px rgba(0,0,0, 0.1);
+
+  border-radius: 8px;
+
+  color: #7C84AC;
+  font-size: 14px;
+}
+
+.login-btn:first-of-type {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.login-btn > span,
+.login-btn > img {
+  vertical-align: middle;
+}
+
+.login-btn > img {
+  margin-right: 12px;
+}
+
+.devider {
+  text-align: center;
+  color: #7C84AC;
+  margin: 38px 0;
+
+  position: relative;
+}
+
+.devider__text {
+  position: relative;
+
+  z-index: 2;
+
+  background: #fff;
+  padding: 0 20px;
+}
+
+.devider__line {
+  width: 100%;
+  height: 1px;
+  background: #D3D6E3;
+
+  position: absolute;
+  bottom: 8px;
+
+  z-index: 1;
+}
+
+.input-wrapper {
+  margin-bottom: 17px;
+}
+
+.input-wrapper > label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #7C84AC;
+  text-transform: uppercase;
+}
+
+.input {
+  width: 100%;
+  padding: 23px 20px;
+  border: 1px solid rgba(37, 50, 116, 0.28);
+  border-radius: 6px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-btn {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.password-btn img:not(.active) {
+  display: none;
+}
+
+.forgot {
+  text-align: right;
+  font-size: 13px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #7C84AC;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 38px;
+  padding: 22px 15px;
+  font-size: 17px;
+  font-weight: bold;
+  background: #7189FF;
+  border-radius: 6px;
+  color: #fff;
+
+  border: none;
+}
+
+.footer {
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer a {
+  font-weight: bold;
+  color: #7189FF;
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+div {
+    width: 355px;
+    box-shadow: 0 0 20px #000;
+    text-align: center;
+    padding: 40px;
+    border-radius: 6px;
+    border-top: 10px solid #00CDA8;
+ }
+
+button {
+     background: #00CDA8;
+     border: none;
+     padding: 30px 80px;
+     border-radius: 6px;
+     /* border-bottom: 5px solid #00846C; */
+     box-shadow: 0 0 0 #00846C;
+ }

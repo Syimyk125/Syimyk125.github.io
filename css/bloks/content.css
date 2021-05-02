@@ -1,0 +1,54 @@
+.content {
+    margin: 200px 0;
+    padding: 20px;
+}
+
+.content-title {
+    margin: 0 auto;
+    width: 150px;
+    background: rgb(255, 166, 0);
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+.content-title:hover{
+    color: rgb(255, 166, 0); 
+    background:#000;
+}
+.content-card{
+    background: rgb(202, 190, 190);
+    width: 100%;
+    max-width: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(11, 73, 153);
+    padding-bottom: 20px;
+    
+}
+.content_card-img{
+    width: 350px;
+    border-radius: 25px 25px 0 0;
+}
+.content_card-title{
+    font-family: 'Indie Flower', cursive;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.content_card-link{
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb(11, 73, 153);
+}
+.content_card-link:hover{
+    color: rgb(13, 43, 83);
+}
+
+@media screen and (max-width: 730px) {
+    .content-card{
+        margin: 30px auto;
+    }
+}

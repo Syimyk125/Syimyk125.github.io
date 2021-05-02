@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Домашнее Задание - Урок 4</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="fonts/stylesheet.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<h1 class="title" style="background-image: url('img/bg1.png');">
+				Log In to Brand
+			</h1>
+
+			<div class="text-center">
+				<button class="login-btn">
+					<img src="img/f.svg" alt="">
+					<span>Facebook</span>
+				</button>
+	
+				<button class="login-btn">
+					<img src="img/g.svg" alt="">
+					<span>Google</span>
+				</button>
+			</div>
+
+			<div class="devider">
+				<span class="devider__text">Or Log In Using Email</span>
+				<div class="devider__line"></div>
+			</div>
+
+			<div class="input-wrapper">
+				<label for="email">Email</label>
+				<input type="text" class="input" id="email">
+			</div>
+
+			<div class="input-wrapper password-wrapper">
+				<label for="pwd">Password</label>
+				<input type="password" class="input" id="pwd">
+
+				<div class="password-btn" onclick="togglePassword(event)">
+					<img src="img/show.svg" alt="" data-show class="active">
+					<img src="img/hide.svg" alt="">
+				</div>
+			</div>
+
+			<div class="forgot">
+				<a href="#">Forgot Password?</a>
+			</div>
+
+			<button class="submit-btn">Log In</button>
+
+			<div class="footer">
+				New to Brand? <a href="#">Sign Up</a>
+			</div>
+
+		</div>
+
+		<script>
+		
+			function togglePassword(e) {
+				var $pswBtn = document.querySelector('.password-btn')
+				var $activeImg = document.querySelector('.password-btn img.active')
+				var $inactiveImg = document.querySelector('.password-btn img:not(.active)')
+				var $inputPwd = document.querySelector('input#pwd')
+
+				$activeImg.classList.toggle('active')
+				$inactiveImg.classList.toggle('active')
+
+				var isShow = $activeImg.dataset.hasOwnProperty('show')
+				$inputPwd.type = isShow ? 'text' : 'password'
+
+				console.log(isShow, $inputPwd);
+			}
+		</script>
+
+	</body>
+
+</html>

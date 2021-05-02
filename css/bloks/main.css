@@ -1,0 +1,109 @@
+.main-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 55px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.main-img:hover{
+    width: 120px;
+    height: 120px;
+}
+.main-title {
+    width: 50%;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    font-family: 'New Tegomin', serif;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.main-title:hover{
+    font-size: 45px;
+}
+
+.main__info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_info-block {
+    padding: 1.5% 2.5%;
+    border-radius: 18px;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+}
+.main_info-block:hover {
+    transition: 0.5s;
+    max-width: 303px;
+    width: 100%;
+}
+
+
+.main_info_block-title {
+    font-family: 'Original Surfer', cursive;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.main_info_block-txt {
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+}
+
+.block_1 {
+    box-shadow: 3px 3px 3px rgb(0, 14, 29);
+    background: rgb(128, 151, 199);
+    color:rgb(0, 0, 2);
+}
+.block_1:hover {
+    transition: 0.5s;
+    background: rgb(14, 44, 77);
+    color:burlywood;
+    box-shadow: inset 0 0 0 3px rgb(104, 110, 94);
+}
+
+.block_2 {
+    
+    box-shadow: 3px 3px 3px rgb(42, 41, 29);
+    background:#ffe600;
+    color:rgb(13, 82, 41);
+    font-size: 18px;
+}
+.block_2:hover {
+    transition: 0.3s;
+    background:rgb(8, 78, 17);
+    color:#ffe600;
+    box-shadow: inset 0 0 0 3px #ffe600; 
+}
+
+.block_3 {
+    
+    box-shadow: 6px 6px 6px rgb(1, 7, 14);
+    background: rgb(119, 90, 119);
+    color: rgb(193, 196, 16)
+}
+.block_3:hover {
+    transition: 0.5s;
+    background:rgba(216, 191, 216); 
+    color: rgb(94, 25, 97);
+    box-shadow: inset 0 0 0 5px rgb(94, 25, 97);
+}
+
+@media screen and (max-width: 730px){
+    .main_info-block{
+        margin: 20px auto;
+    }
+    .main__info{
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .main-img{
+        margin: 20px 42% 28px;
+    
+    }
+    
+}
