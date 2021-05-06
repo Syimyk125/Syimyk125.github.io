@@ -1,0 +1,17 @@
+.fon {
+    width: 110%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+}
+
+@media screen and (max-width: 730px){
+    .fon{
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+        z-index: -1;
+    }
+}
