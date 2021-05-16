@@ -23,8 +23,9 @@
     max-width: 350px;
     border-radius: 25px;
     text-align: center;
-    color: rgb(11, 73, 153);
+    color: rgb(7, 43, 90);
     padding-bottom: 20px;
+    margin: 5px 10px;
     
 }
 .content_card-img{
