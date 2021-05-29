@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,17 +184,17 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../fonts/stylesheet.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../Fonts/stylesheet.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./Gilroy-Extrabold.woff2":[["Gilroy-Extrabold.550b771c.woff2","../fonts/Gilroy-Extrabold.woff2"],"../fonts/Gilroy-Extrabold.woff2"],"./Gilroy-Extrabold.woff":[["Gilroy-Extrabold.c7ceb54f.woff","../fonts/Gilroy-Extrabold.woff"],"../fonts/Gilroy-Extrabold.woff"],"./Gilroy-Extrabold.ttf":[["Gilroy-Extrabold.eb8cc51e.ttf","../fonts/Gilroy-Extrabold.ttf"],"../fonts/Gilroy-Extrabold.ttf"],"./Gilroy-Bold.woff2":[["Gilroy-Bold.d6d3a41c.woff2","../fonts/Gilroy-Bold.woff2"],"../fonts/Gilroy-Bold.woff2"],"./Gilroy-Bold.woff":[["Gilroy-Bold.5a68f95a.woff","../fonts/Gilroy-Bold.woff"],"../fonts/Gilroy-Bold.woff"],"./Gilroy-Bold.ttf":[["Gilroy-Bold.19af04b1.ttf","../fonts/Gilroy-Bold.ttf"],"../fonts/Gilroy-Bold.ttf"],"./ChronicleDisplay-Semi.woff2":[["ChronicleDisplay-Semi.422539f2.woff2","../fonts/ChronicleDisplay-Semi.woff2"],"../fonts/ChronicleDisplay-Semi.woff2"],"./ChronicleDisplay-Semi.woff":[["ChronicleDisplay-Semi.5c51dc7d.woff","../fonts/ChronicleDisplay-Semi.woff"],"../fonts/ChronicleDisplay-Semi.woff"],"./ChronicleDisplay-Semi.ttf":[["ChronicleDisplay-Semi.aa4fe7b5.ttf","../fonts/ChronicleDisplay-Semi.ttf"],"../fonts/ChronicleDisplay-Semi.ttf"],"./Gilroy-Medium.woff2":[["Gilroy-Medium.b565068c.woff2","../fonts/Gilroy-Medium.woff2"],"../fonts/Gilroy-Medium.woff2"],"./Gilroy-Medium.woff":[["Gilroy-Medium.6a25746e.woff","../fonts/Gilroy-Medium.woff"],"../fonts/Gilroy-Medium.woff"],"./Gilroy-Medium.ttf":[["Gilroy-Medium.22857235.ttf","../fonts/Gilroy-Medium.ttf"],"../fonts/Gilroy-Medium.ttf"],"./ChronicleDisplay-Bold.woff2":[["ChronicleDisplay-Bold.1080be9d.woff2","../fonts/ChronicleDisplay-Bold.woff2"],"../fonts/ChronicleDisplay-Bold.woff2"],"./ChronicleDisplay-Bold.woff":[["ChronicleDisplay-Bold.c4b8b600.woff","../fonts/ChronicleDisplay-Bold.woff"],"../fonts/ChronicleDisplay-Bold.woff"],"./ChronicleDisplay-Bold.ttf":[["ChronicleDisplay-Bold.45e5842d.ttf","../fonts/ChronicleDisplay-Bold.ttf"],"../fonts/ChronicleDisplay-Bold.ttf"],"_css_loader":"../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../scss/style.scss":[function(require,module,exports) {
+},{"./Gilroy-Medium.woff2":[["Gilroy-Medium.1346c6ca.woff2","../Fonts/Gilroy-Medium.woff2"],"../Fonts/Gilroy-Medium.woff2"],"./Gilroy-Medium.woff":[["Gilroy-Medium.c083b09c.woff","../Fonts/Gilroy-Medium.woff"],"../Fonts/Gilroy-Medium.woff"],"./Gilroy-Medium.ttf":[["Gilroy-Medium.d65bf21c.ttf","../Fonts/Gilroy-Medium.ttf"],"../Fonts/Gilroy-Medium.ttf"],"./Gilroy-Extrabold.woff2":[["Gilroy-Extrabold.e3b62b22.woff2","../Fonts/Gilroy-Extrabold.woff2"],"../Fonts/Gilroy-Extrabold.woff2"],"./Gilroy-Extrabold.woff":[["Gilroy-Extrabold.8afe40c8.woff","../Fonts/Gilroy-Extrabold.woff"],"../Fonts/Gilroy-Extrabold.woff"],"./Gilroy-Extrabold.ttf":[["Gilroy-Extrabold.f3c4d4a0.ttf","../Fonts/Gilroy-Extrabold.ttf"],"../Fonts/Gilroy-Extrabold.ttf"],"./Gilroy-Bold.woff2":[["Gilroy-Bold.ea2d41a8.woff2","../Fonts/Gilroy-Bold.woff2"],"../Fonts/Gilroy-Bold.woff2"],"./Gilroy-Bold.woff":[["Gilroy-Bold.74e94adc.woff","../Fonts/Gilroy-Bold.woff"],"../Fonts/Gilroy-Bold.woff"],"./Gilroy-Bold.ttf":[["Gilroy-Bold.3b543fbc.ttf","../Fonts/Gilroy-Bold.ttf"],"../Fonts/Gilroy-Bold.ttf"],"./ChronicleDisplay-Semi.woff2":[["ChronicleDisplay-Semi.a5654058.woff2","../Fonts/ChronicleDisplay-Semi.woff2"],"../Fonts/ChronicleDisplay-Semi.woff2"],"./ChronicleDisplay-Semi.woff":[["ChronicleDisplay-Semi.058111be.woff","../Fonts/ChronicleDisplay-Semi.woff"],"../Fonts/ChronicleDisplay-Semi.woff"],"./ChronicleDisplay-Semi.ttf":[["ChronicleDisplay-Semi.f9f0614b.ttf","../Fonts/ChronicleDisplay-Semi.ttf"],"../Fonts/ChronicleDisplay-Semi.ttf"],"./ChronicleDisplay-Bold.woff2":[["ChronicleDisplay-Bold.a8a3a4bd.woff2","../Fonts/ChronicleDisplay-Bold.woff2"],"../Fonts/ChronicleDisplay-Bold.woff2"],"./ChronicleDisplay-Bold.woff":[["ChronicleDisplay-Bold.f1d55519.woff","../Fonts/ChronicleDisplay-Bold.woff"],"../Fonts/ChronicleDisplay-Bold.woff"],"./ChronicleDisplay-Bold.ttf":[["ChronicleDisplay-Bold.55400115.ttf","../Fonts/ChronicleDisplay-Bold.ttf"],"../Fonts/ChronicleDisplay-Bold.ttf"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../scss/style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../fonts/stylesheet.css":"../fonts/stylesheet.css","_css_loader":"../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../Fonts/stylesheet.css":"../Fonts/stylesheet.css","_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -222,7 +222,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63001" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52430" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -398,5 +398,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/style.1dc133ea.js.map
+},{}]},{},["../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+//# sourceMappingURL=style.1dc133ea.js.map

@@ -1,0 +1,60 @@
+.footer {
+    
+
+    & > .container {
+        display: flex;
+        flex-wrap: wrap;
+     justify-content: center;
+        
+        
+    }
+
+    &__col {
+        width: 30%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &:first-child {
+            margin-right: 10%;
+            margin-top: 25px;
+            
+        }
+       
+        
+
+        & > .text {
+            width: 300px;
+            margin-top: 20px;
+            margin-bottom: 130px;
+        }
+    }
+
+    &-nav__title {
+        color: $accent;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px !important ;
+    }
+
+
+    &-nav ul {
+        padding: 0;
+        list-style: none;
+        margin-left: 40%;
+
+    }
+    &-nav ul li  {
+        margin-bottom: 16px;
+    }
+    &-nav a {
+        color: currentColor;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        
+    }
+
+   
+}

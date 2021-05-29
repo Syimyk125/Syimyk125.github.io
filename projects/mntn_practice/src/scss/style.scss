@@ -1,38 +1,40 @@
-@import "../fonts/stylesheet.css";
+@import "../Fonts/stylesheet.css";
 @import "../../node_modules/normalize.css/normalize";
-@import "variables";
-
+@import "../scss/varibles.scss";
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
-
 body {
-  margin: 0;
-  font-family: $main-font;
-  font-weight: 700;
-  color: $white;
-  background: $dark;
-  overflow: hidden auto;
+    margin: 0;
+    font-family: $main-font;
+    font-weight: 700;
+    color: $white;
+    background: $dark;
 }
 
 .container {
-  max-width:  1502px;
-  margin: 0 auto;
-  padding: 0 20px;
+    max-width: 1502px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .wow {
-  visibility: hidden;
-}
+    visibility: hidden;
+  }
+  
+  .hide {
+    visibility: hidden;
+  }
 
-.hide {
-  visibility: hidden;
-}
 
-@import "blocks";
-@import "utils";
-@import "media";
+
+@import "./blocks.scss";
+@import "./utilits.scss";
+@import "./media.scss";
+
+
+ 

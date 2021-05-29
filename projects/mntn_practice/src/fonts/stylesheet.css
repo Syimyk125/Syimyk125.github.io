@@ -1,5 +1,15 @@
 @font-face {
     font-family: 'Gilroy';
+    src: url('./Gilroy-Medium.woff2') format('woff2'),
+        url('./Gilroy-Medium.woff') format('woff'),
+        url('./Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
     src: url('./Gilroy-Extrabold.woff2') format('woff2'),
         url('./Gilroy-Extrabold.woff') format('woff'),
         url('./Gilroy-Extrabold.ttf') format('truetype');
@@ -24,16 +34,6 @@
         url('./ChronicleDisplay-Semi.woff') format('woff'),
         url('./ChronicleDisplay-Semi.ttf') format('truetype');
     font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url('./Gilroy-Medium.woff2') format('woff2'),
-        url('./Gilroy-Medium.woff') format('woff'),
-        url('./Gilroy-Medium.ttf') format('truetype');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
