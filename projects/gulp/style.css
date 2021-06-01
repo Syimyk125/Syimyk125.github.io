@@ -1,0 +1,90 @@
+a{
+    color: rgb(43, 0, 112);
+
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(146, 148, 223);
+    color: rgb(27, 0, 70);
+    font-size: 17px;
+
+}
+li{
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 12px;
+}
+
+.dsplBtn{
+    display: flex;
+    flex-direction: column;
+
+}
+.btnflex{
+    display: flex;
+}
+.btn{
+    border:none;
+    box-shadow: 6px 7px 4px rgb(66, 66, 66);
+    background: #46039e;
+    margin-left: 15px;
+    padding: 60px 10px;
+    border-radius: 6px;
+    color:rgb(238, 238, 238);
+    font-size: 18px
+}
+.block{
+    background: rgba(76, 6, 95, 0.13);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 9px;
+    padding: 8px;
+}
+.img{
+    justify-content: center;
+}
+.infoBlock-title{
+    color:rebeccapurple;
+}
+
+.infoBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.imgSite{
+    border-radius: 7px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height:600px;
+}
+
+.button{
+    width: 230px;
+    border:none;
+    box-shadow: 6px 7px 4px rgb(66, 66, 66);
+    background: #46039e;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    color:rgb(238, 238, 238);
+    font-size: 18px;
+}
+.button:hover{
+    background: rgb(185, 173, 255);
+    box-shadow: 8px 8px 6px rgb(44, 44, 44);
+    transform: scale(1.03);
+    color:rgb(82, 3, 3);
+}
+.btn:hover{
+    background: rgb(185, 173, 255);
+    box-shadow: 8px 8px 6px rgb(44, 44, 44);
+    transform: scale(1.03);
+    color:rgb(82, 3, 3);
+  
+}
