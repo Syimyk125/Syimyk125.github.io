@@ -117,11 +117,16 @@ body{
     max-width: 230px;
     width: 100%;
     height: auto;
-    background-color: rgb(236, 241, 159);
+    background: rgb(53, 45, 36);
 }
 .box>p{
     
-    color:rgb(63, 74, 85);
+    color:rgb(255, 251, 216);
+    font-size: 22px;
+}
+p>a{
+    
+    color:rgb(184, 184, 184);
     font-size: 22px;
 }
 .title__priv{
@@ -171,11 +176,31 @@ body{
 }
 
 @media (max-width: 630px) {
-    .nav {
-    
-        
+    .section{
+        width: 1000px;
+        margin: 10px auto 0;
+        display: inline;
+        text-align: center;
+    }
+    .nav{
+        margin: 15px 0;
     }
     .nav_li{
-        max-width: 0 8px;
+        margin: 0 9px;
+    }
+    .con{
+        display: none;
+    }
+    .nav_li:hover{
+        text-decoration: none;
+        margin: 0 9px;
+        color:rgb(5, 5, 5);
+        box-shadow: 3px 3px rgb(82, 0, 0);
+    }
+    .home{
+        font-size: 25px;
+        margin: 0 9px;
+        
+        color:rgba(5, 5, 5);
     }
   }
