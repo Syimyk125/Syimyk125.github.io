@@ -140,13 +140,15 @@ p>a{
 }
 
 .footer{
-    margin: 110px 0 0 0;
-    background-color: rgba(97, 93, 151, 0.472);
+    margin: 110px auto 0;
+    background: rgb(53, 45, 36);
     width:100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 5px;
+    max-width: 1000px;
+   
 
 }
 .footer__box{
@@ -183,6 +185,7 @@ p>a{
         text-align: center;
     }
     .nav{
+        width: auto;
         margin: 15px 0;
     }
     .nav_li{
@@ -202,5 +205,17 @@ p>a{
         margin: 0 9px;
         
         color:rgba(5, 5, 5);
+    }
+    .privet{
+        margin: 0;
+    }
+    .footer__img{
+        width: 260px;
+    }
+    .footer__box{
+        padding-left: 17px;
+    }
+    .logo_img{
+        margin: 5px 13px;
     }
   }
