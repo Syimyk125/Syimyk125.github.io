@@ -12,10 +12,15 @@
     font-size: 30px;
     margin-bottom: 80px;
     border-radius: 5px;
+    animation: bounce;
+    animation-duration: 2s;
 }
 .content-title:hover{
     color: rgb(255, 166, 0); 
     background:#000;
+}
+.content-title:active{
+    color:aqua;
 }
 .content-card{
     background: rgb(202, 190, 190);
@@ -28,6 +33,7 @@
     margin: 5px 10px;
     margin-bottom: 80px;
     padding-bottom: 20px;
+    
 }
 .content_card-img{
     max-width: 350px;
@@ -58,3 +64,5 @@
 
     }
 }
+
+

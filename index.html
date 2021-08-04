@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,23 +9,14 @@
     <!-- Обнуление css -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <!-- Шрифты -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
-</head>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="css/animate.css">
+    
+  
 <body>
+ 
     <img class="fon" src="img/fon1.jpg">
     <div class="container">
         
@@ -34,7 +25,7 @@
     </header>
 
     <main class="main">
-        <img class="main-img" src="img/20210407_144435.jpg" alt="Syimyk Sydykov">
+        <img class="main-img " src="img/20210407_144435.jpg" alt="Syimyk Sydykov">
         <h1 class="main-title"> Welcome to my Portfolio 👋 </h1>
         <div class="main__info">
             <div class="main_info-block block_1">
@@ -44,7 +35,7 @@
             
             <div class="main_info-block block_2">
                 
-                <h4 class="main_info_block-title">What can i do</h4>
+                <h4 class="main_info_block-title animate">What can i do</h4>
                <ul class="main_info-txt"></ul>
                    <li class="list">Confident possession ( html5,  css3 and JavaScript )</li>
                    <li class="list"> framework - React.JS </li>
@@ -73,9 +64,9 @@
     </main>
 
     <section class="content">
-        <h2 class="content-title">My works</h2>
+        <h2 class="wow backInLeft content-title ">My works</h2>
         <div class="container flex-wrap">
-            <div class="content-card">
+            <div class="wow backInLeft content-card ">
                 <img class="content_card-img" src="img/screenshot.png">
                 <h2 class="content_card-title"> Trafalgar </h2>
                 <p class="content_card-txt">My first job. Layout of a full-fledged site. One of the most interesting works. Responsive website for any device</p>
@@ -115,9 +106,18 @@
                 <p class="content_card-txt">Техника «Помидора» позволяет использовать время как ценного союзника в достижении того, что мы хотим сделать и как мы хотим это сделать. Она даёт нам возможность постоянно улучшать то, как мы работаем или учимся.  </p>
                 <a href="projects/color_dance/index.html" target="_blank" class="content_card-link">Show More</a>            
             </div>
-        </div>
+       
+       
+       
+       
+        
     </section>
     </div>
+
+
+  
+  
+   
 
 
 
@@ -154,6 +154,10 @@
         </div>
     </footer>
 
-    
+   <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+              
 </body>
 </html>
