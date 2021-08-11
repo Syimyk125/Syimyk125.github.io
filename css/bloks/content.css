@@ -12,8 +12,8 @@
     font-size: 30px;
     margin-bottom: 80px;
     border-radius: 5px;
-    animation: bounce;
-    animation-duration: 2s;
+    animation:heartBeat;
+    animation-duration: infinite;
 }
 .content-title:hover{
     color: rgb(255, 166, 0); 
